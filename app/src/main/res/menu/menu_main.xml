@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dev.tatuan.myapplication.MainActivity">
+    <item
+        android:id="@+id/nav_trangchu"
+        android:icon="@drawable/trangchu"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_giohang"
+        android:icon="@drawable/giohang"
+        android:title="Cart" />
+    <item
+        android:id="@+id/nav_donhang"
+        android:icon="@drawable/donhang"
+        android:title="My Pay" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>
